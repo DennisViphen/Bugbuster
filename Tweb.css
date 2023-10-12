@@ -1,0 +1,93 @@
+body
+{ 
+    padding: 0;
+    margin: 0;
+}
+.logo
+{
+ text-shadow:20px black
+}
+.navbar
+{
+    width: 100%;
+    /* background:aqua; */
+    padding:15px 0;
+    /* position: -webkit-sticky;  */
+    position: sticky;
+    top: 0;
+    background: aqua;
+}
+
+ .nav{
+    width: 1700px;
+    margin-left:50px ;
+    
+     
+} 
+.navbar .nav
+{
+    display: flex;
+    align-items: center; 
+      justify-content:space-between; 
+}
+.navbar .nav .logo span{
+    color: black;
+    font-size: 30px;
+}
+.navbar .logo a
+{
+   color:red;
+    font-size: 30px;
+    font-weight: 700;
+         list-style: none;
+    text-decoration: none; 
+}
+.navbar .menu li{
+    list-style: none;
+      display: inline-block;  
+}
+.navbar .menu li a:hover{
+    color:red;
+
+}
+.navbar .menu li a{
+    color:black;
+    font-size:25px;
+    font-weight: 700;
+     margin-left:40px; 
+    transition:0.3s;
+    text-decoration: none;
+}
+.flag
+{ 
+    margin: 0;
+    padding:0;
+    width:50px;
+     height:50px; 
+    background: red;
+
+}
+.home
+{
+    width:100%;
+    height:91vh;
+    background: green;
+}
+.about
+{
+    width:100%;
+    height:91vh;
+    background:yellow;
+}
+.project
+{
+    width:100%;
+    height:91vh;
+    background: blue;
+}
+.contact
+{
+    width:100%;
+    height:91vh;
+    background: purple;
+}
