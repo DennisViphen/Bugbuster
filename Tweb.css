@@ -50,14 +50,15 @@ body
 }
 .navbar .menu li{
     list-style: none;
-      display: inline-block;  
+     display: inline-block;
+ 
 }
 .navbar .menu li a:hover{
-    color:red;
+     color:red;
     background-color: white;
     border-radius:5px ;
-    box-shadow: 0 0 5px 5px white;
-
+    box-shadow: 0 0 5px 5px white; 
+    
 }
 .navbar .menu li a{
     padding: 0;
@@ -116,4 +117,11 @@ img
     border-radius: 50%;
     /* padding-right:20px; */
 }
+
+
+
+  
+ 
+  
+  
 
