@@ -1,84 +1,64 @@
-body
-{ 
+:root{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS','sans-serif';
+    scroll-behavior: smooth;
+}
+*{ 
     padding: 0;
     margin: 0;
 }
-.logo
-{
- text-shadow:20px black
+  nav{
+    position:-webkit-sticky;
+    position:sticky; 
+    top: 0;    
 }
-.navbar
-{
+.navbar{
     width: 100%;
-    /* background:aqua; */
-    padding:15px 0;
-    /* position: -webkit-sticky;  */
-    position: sticky;
-    top: 0;
-    background: aqua;
-}
-
- .nav{
-    width: 1700px;
-    margin-left:50px ;
+    height: 100px;
+    background-color: aqua;
     
-     
-} 
-.navbar .nav
-{
-    display: flex;
-     align-items: center; 
- justify-content:space-between; 
+
+
 }
-.navbar .nav span{
-    color: black;
-    font-size: 30px;
-    padding-left:6px;
-}
-.navbar .nav  a
-{   
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: chocolate;
     display: flex;
     align-items: center;
-     justify-content:space-evenly;
-     margin:0; 
-   color:red;
-    font-size: 30px;
-    font-weight: 700;
-    list-style: none;
-    text-decoration: none; 
-     padding-left:30px;
-}
-.navbar .menu li{
-    list-style: none;
-     display: inline-block;
- 
-}
-.navbar .menu li a:hover{
-     color:red;
-    background-color: white;
-    border-radius:5px ;
-    box-shadow: 0 0 5px 5px white; 
-    
-}
-.navbar .menu li a{
-    padding: 0;
-    color:black;
-    font-size:25px;
-    font-weight: 700;
-     margin-left:40px; 
-    transition:0.2s;
-    text-decoration: none;
+    justify-content: space-between;
+
+
+     
 } 
-.navbar .nav .flag
-{ 
-    margin:0;
-    /* margin-left:20px; */
-    width:80px;
-     height:80px; 
-    background: red;
-    border-radius: 50px;
+
 
 }
+.nav1{
+    width: 30%;
+    height: 60px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-bar{
+    width:50%;
+    height: 60px;
+    background-color: azure;
+    
+
+}
+.menu-bar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    
+}
+
 .home
 {
     width:100%;
@@ -109,16 +89,218 @@ h1{
     width:100%;
     height:91vh;
     background: purple;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-img
+.contact_social_media{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    height: 55vh;
+    background-color: rgb(13, 13, 13);
+}
+.contact_form_div{
+    width: 50%;
+    height: 55vh;
+   background-color:#36454F;
+    
+    
+}
+form{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+   
+}
+.contact_us{
+    width: 100%;
+    height: 4vh;
+ 
+}
+.name_div
 {
-    width: 50px;
+    width: 100%;
+    height: 10vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.in{
+    height: 5vh;
+    width: 320px;
+    
+}
+.contact_details_div{
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.subject_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+   
+    /* padding-top: 30px; */
+
+}
+.message_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    
+    
+   
+}
+.in2{
     height: 50px;
-    border-radius: 50%;
-    /* padding-right:20px; */
+    width: 780px;
+
+    
+}
+textarea{
+    height: 100px;
+    width: 780px;
+}
+.send_it_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+   
+
+}
+.send_it_button{
+    height: 50px;
+    width: 200px;
+    background: whitesmoke;
+    border-radius: 20px;
+    font-size: medium;
+
 }
 
+.social_media_image{
+    background-image: url(./image/Social\ networking-bro.png);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 600px;
+}
+.social_media_link{
+    height: 15vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#linkedin{
+    display: block; 
+    width: 200px;
+    height: 100px; 
+    background-image: url(./image/linkedin_logo.png); 
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+   
+}
+#twitter{
+    display: block; 
+    width: 200px;
+    height: 100px; 
+    background-image: url(./image/twitter_logo.png); 
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+   
+}
+#facebook{
+    display: block; 
+    width: 200px;
+    height: 100px; 
+    background-image: url(./image/facebook_logo.png); 
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+   
+}
+#github
+{
+    display: block; 
+    width: 200px;
+    height: 100px; 
+    background-image: url(./image/github_logo.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%) brightness(0) invert(1);
+}
 
+.social_media_image{
+    background-image: url(./image/Social\ networking-bro.png);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 600px;
+}
+.social_media_link{
+    height: 15vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#linkedin{
+    display: block; 
+    width: 200px;
+    height: 100px; 
+    background-image: url(./image/linkedin_logo.png); 
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+   
+}
+#twitter{
+    display: block; 
+    width: 200px;
+    height: 100px; 
+    background-image: url(./image/twitter_logo.png); 
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+   
+}
+#facebook{
+    display: block; 
+    width: 200px;
+    height: 100px; 
+    background-image: url(./image/facebook_logo.png); 
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+   
+}
+#github
+{
+    display: block; 
+    width: 200px;
+    height: 100px; 
+    background-image: url(./image/github_logo.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%) brightness(0) invert(1);
+}
 
   
  
